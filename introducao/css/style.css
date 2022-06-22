@@ -1,7 +1,18 @@
 body{
     background-color: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 #tittle, .subtittle, .post-tittle{
+    color: #505050;
+}
+#tittle{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
     color: #505050;
 }
 .photo{
@@ -25,9 +36,20 @@ body{
 .post-content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 .post-img{
     margin: 0;
     margin-bottom: 15px;
     border-radius: 3px;
+    width: 100%;
 }
+.contato {
+    list-style-type: none;
+    padding-left: 15px;
+    
+}
+.contato li a{
+    text-decoration: none;
+} 
